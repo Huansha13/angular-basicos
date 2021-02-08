@@ -1,10 +1,21 @@
 import { Component } from '@angular/core';
 
+//decorador componente
+//el agrumento es un oobjeto
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  // template:`<h1> Hola mundo</h1>`,
+  templateUrl:'app.component.html'
 })
 export class AppComponent {
-  title = 'base';
+
 }
+
+
+// sumar() {
+//   this.numero += 1;
+// }
+
+// restar() {
+//   this.numero -= 1;
+// }
